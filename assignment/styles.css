@@ -19,6 +19,19 @@ main > div {
     padding: 20px;
 }
 
+footer {
+    width: auto;
+    max-width: 600px;
+    padding: 10px;
+    background-color: #9BC1BC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 /**
  *
  * To follow along with the Figma design:
