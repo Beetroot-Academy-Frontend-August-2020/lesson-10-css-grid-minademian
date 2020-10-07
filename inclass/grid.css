@@ -1,6 +1,6 @@
 main {
     width: 100%;
-    max-width: 960px;
+    max-width: 900px;
 }
 
 .named-areas, 
@@ -8,8 +8,10 @@ main {
 .web-layout, 
 .modern-web {
     display: grid;
-    width: 900px;
+    width: 100%;
+    height: auto;
     margin: 10px 0;
+    border: 1px solid grey;
 }
 
 .named-areas > div,
@@ -26,7 +28,7 @@ main {
 
 #basic {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 150px 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
     gap: 1rem;
 }
 
